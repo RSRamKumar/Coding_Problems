@@ -16,3 +16,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+#https://stackoverflow.com/questions/10834960/how-to-do-multiple-arguments-to-map-function-where-one-remains-the-same-in-pytho
