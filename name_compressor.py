@@ -6,8 +6,9 @@ Given a full name, compress it as shown:
 
 def name_compressor(full_name):
     full_name_list_format = full_name.split()
-    #print(full_name_list_format[0] +" "+ " ".join([i[0] for i in full_name_list_format[1:]]))
-    return full_name_list_format[0] + " " +  ".".join("".join([i[0] for i in full_name_list_format[1:]])) + "."
+    # print(full_name_list_format[0] +" "+ " ".join([i[0] for i in full_name_list_format[1:]]))
+    # print( full_name_list_format[0] + " " +  ".".join("".join([i[0] for i in full_name_list_format[1:]])) + ".")
+    return full_name_list_format[0] + " " +  " ".join([i[0]+"." for i in full_name_list_format[1:]])
 
 def main():
     full_name_list=["Ackshay Ruppa Surulinathan","Anna Butler","Lisa	Henderson","Jessica	Alsop","Ian	Miller",]
