@@ -14,3 +14,5 @@ def reversing_array_inplace(array):
     return array
 
 print(reversing_array_inplace([1,2,3,4,5,6,7]))
+
+#https://www.youtube.com/watch?v=p0VD9Fdlx5A
