@@ -10,7 +10,7 @@ class Stack:
         self.list.append(element)
 
     def peek(self):
-        return self.list[-1]
+        return self.list[-1]                  # self.list[len(self.list)-1] same as given
 
     def pop(self):
         try:
@@ -23,6 +23,7 @@ class Stack:
 
     def __repr__(self):
          return f"{self.list}"
+
 
 
 
