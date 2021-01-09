@@ -10,7 +10,7 @@ class Stack:
         self.list.append(element)
 
     def peek(self):
-        return str(self.list[-1])
+        return self.list[-1]
 
     def pop(self):
         try:
